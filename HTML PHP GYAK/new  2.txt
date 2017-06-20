@@ -1,0 +1,4 @@
+SELECT * FROM email_list WHERE first_name= 'Martin';
+SELECT last_name FROM email_list WHERE first_name= 'Bubba';
+SELECT first_name, last_name FROM email_list WHERE email= 'akarmi@akarmi.com';
+SELECT * FROM email_list WHERE first_name= 'Lilla' AND last_name='Nagy';
