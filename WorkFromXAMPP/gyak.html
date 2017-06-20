@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <!-- <link rel="stylesheet" href="https://pingendo.github.io/templates/blank/theme.css" type="text/css"> -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="" action="usermanager.php" method="post">
+            <div class="panel panel-default">
+              <div class="panel-heading">Felhasználónév</div>
+              <div class="panel-body"><input type="text" name="name" class="form-control" placeholder="Felhasználónév"> </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">Születésnap</div>
+              <div class="panel-body"><input type="date" name="date" class="form-control"> </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">Password</div>
+              <div class="panel-body"><input type="password" name="password" class="form-control" placeholder="Password"> </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">Nemed</div>
+              <div class="panel-body"><input type="radio" name="sex" value="0" checked=""> Nő <br>
+                <input type="radio" name="sex" value="1"> Férfi<br> 
+			  </div>
+            </div>
+			 <button type="submit" class="btn btn-primary" name="submit">Login</button>
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+</body>
+
+</html>
