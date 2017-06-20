@@ -1,0 +1,12 @@
+<?php
+
+
+$szo = array('a', 'b', 'b', 'a');
+
+for( $i=0; $i<4; $i++){
+	
+	echo $szo[$i];
+	
+}
+
+?>
